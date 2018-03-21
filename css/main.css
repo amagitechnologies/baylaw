@@ -367,7 +367,7 @@ ul.disc li::before {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #39b54a;
+    background: #6AECC8;
     position: absolute;
     left: -17px;
     top: 11px;
@@ -376,7 +376,7 @@ ul.disc li::before {
 
 dt {
     margin: 0;
-    color: #39b54a;
+    color: #6AECC8;
 }
 
 dd {
@@ -502,7 +502,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #39b54a;
+    background: #6AECC8;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +545,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #39b54a;
+    background-color: #6AECC8;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #6AECC8;
-    border-color: #6AECC8;
+    background: rgba(0,0,0,0);
+    border-color: #FFFFFF;
     color: #FFFFFF;
 }
 
@@ -847,8 +847,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #1296DB;
-    border-color: #1296DB;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #000000;
 }
 
 
@@ -872,8 +873,8 @@ input[type="button"].btn--primary:focus {
 
 .btn--stroke, button.btn--stroke {
     background: transparent !important;
-    border: 0.2rem solid #39b54a;
-    color: #39b54a;
+    border: 0.2rem solid #6AECC8;
+    color: #6AECC8;
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
@@ -1101,7 +1102,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-    color: #39b54a;
+    color: #6AECC8;
 }
 
 .stats-tabs li a em {
@@ -1246,7 +1247,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #6AECC8;
+    color: #1296DB;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1420,7 +1421,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #39b54a;
+    background: #6AECC8;
 }
 
 
@@ -1948,7 +1949,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social span {
-    color: #F8009F;
+    color: #6AECC8;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -3003,7 +3004,7 @@ html.no-csstransitions .home-content__main {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #F8009F;
+    background-color: #6AECC8;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3171,7 +3172,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-success {
-    color: #39b54a;
+    color: #6AECC8;
 }
 
 .message-warning i, .message-success i {
@@ -3363,7 +3364,7 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #39b54a;
+    color: #6AECC8;
 }
 
 footer .row {
@@ -3455,8 +3456,8 @@ footer .row {
     top: 0;
     right: 0;
     color: #FFFFFF;
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #6AECC8;
+    border-color: #6AECC8;
     padding: 0 20px;
 }
 
