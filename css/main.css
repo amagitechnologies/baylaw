@@ -3103,7 +3103,7 @@ html.no-csstransitions .home-content__main {
     width: 65%;
 }
 
-.contact-primary #contactForm {
+.contact-primary #form {
     margin-top: -1.5rem;
 }
 
@@ -3291,7 +3291,7 @@ html.no-csstransitions .home-content__main {
         float: none;
         width: 100%;
     }
-    .contact-primary #contactForm {
+    .contact-primary #form {
         margin-top: -1.5rem;
         margin-bottom: 7.2rem;
     }
