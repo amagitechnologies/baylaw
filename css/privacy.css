@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@font-face{font-family:'Enhanced';src:url('jaapokkisubtract-regular.eot') format('eot'),
+url('jaapokkisubtract-regular.woff') format('woff'),
+url('Jaapokkisubtract-Regular.otf') format('otf');font-weight:normal;font-style:normal;}
+
+body {
+  	z-index: 2;
+  	overflow: hidden;
+  	font-family: 'Orbitron', sans-serif;
+  	background-color: black;
+  	color: white;
+}
+#render{
+	display: block;
+	overflow: hidden;
+	z-index: 1;
+	margin: 0 auto;
+}
+
+#cont{
+	background: rgba(251,80,90,0.8);
+	padding: 20px;
+	position: absolute; 
+	display: block;
+	top: 25vh;
+	width: 100vw;
+	height: 60vh;
+	text-align: center;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.button {
+	padding: 10px;
+	font-size: 20px;
+}
+
+.btn-danger {
+	border: transparent;
+}
+.btn-danger:hover {
+	border: #fff;
+}
+
+
+.logos {
+	margin-top: 20px;
+}
+
+.amagi {
+	font-family: 'Enhanced', 'Josefin Sans', sans-serif;
+	text-align: center;
+	letter-spacing: 10px;
+	font-size: 30px;
+	line-height: 30px;
+
+}
+
+.baylaw {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.sunset {
+	height: 5vh;
+	margin-top: -2vh;
+	vertical-align: middle;
+}
+
+a.underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+@media screen and (max-width:736px){
+	#cont { height: 50vh; }
+	.logos { margin-top: 30px; }
+}
