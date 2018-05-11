@@ -1275,7 +1275,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 6.5rem;
     }
     .display-2 {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 }
 
@@ -1284,7 +1284,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         font-size: 5rem;
     }
     .display-2 {
-        font-size: 3.3rem;
+        font-size: 4.5rem;
     }
     .subhead {
         font-size: 1.5rem;
@@ -1293,10 +1293,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media only screen and (max-width: 400px) {
     .display-1 {
-        font-size: 4.2rem;
+        font-size: 4.5rem;
     }
     .display-2 {
-        font-size: 3rem;
+        font-size: 4.2rem;
     }
 }
 
