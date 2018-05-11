@@ -452,7 +452,7 @@ th:last-child, td:last-child {
 }
 
 .table-responsive {
-    overflow-x: auto;
+    overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
 }
 
