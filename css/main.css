@@ -1206,7 +1206,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .narrow {
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 
