@@ -26,7 +26,7 @@
         
         $("html").addClass('cl-preload');
 
-        $WIN.on('load', function() {
+        $WIN.on('DOMContentLoaded', function() {
 
             //force page scroll position to top at page refresh
             // $('html, body').animate({ scrollTop: 0 }, 'normal');
@@ -34,7 +34,7 @@
             // will first fade out the loading animation 
             $("#loader").fadeOut("slow", function() {
                 // will fade out the whole DIV that covers the website.
-                $("#preloader").delay(300).fadeOut("slow");
+                $("#preloader").delay(1000).fadeOut("slow");
             }); 
             
             // for hero content animations 
@@ -99,7 +99,7 @@
 
 
    /* photoswipe
-    * ----------------------------------------------------- */
+    * ----------------------------------------------------- 
     var clPhotoswipe = function() {
         var items = [],
             $pswp = $('.pswp')[0],
@@ -153,7 +153,7 @@
     
 
    /* Stat Counter
-    * ------------------------------------------------------ */
+    * ------------------------------------------------------ 
     var clStatCount = function() {
         
         var statSection = $(".about-stats"),
@@ -191,7 +191,7 @@
 
 
    /* Masonry
-    * ---------------------------------------------------- */ 
+    * ---------------------------------------------------- */
     var clMasonryFolio = function () {
         
         var containerBricks = $('.masonry');
@@ -454,8 +454,8 @@
         clPreloader();
         clMenuOnScrolldown();
         clOffCanvas();
-        clPhotoswipe();
-        clStatCount();
+        //clPhotoswipe();
+        //clStatCount();
         clMasonryFolio();
         clSlickSlider();
         clSmoothScroll();
